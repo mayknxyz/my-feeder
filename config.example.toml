@@ -1,0 +1,23 @@
+[settings]
+refresh_interval_minutes = 30
+retention_days = 7
+bookmark_file = "~/Documents/feeder-bookmarks.md"
+state_file = "~/Documents/feeder-state.json"
+cache_file = "~/.cache/feeder/cache.json"
+# github_token = "ghp_..."
+
+[[feeds]]
+name = "Go Blog"
+url = "https://go.dev/blog/feed.atom"
+tag = "go"
+
+[[feeds]]
+name = "Hacker News"
+url = "https://hnrss.org/frontpage"
+tag = "news"
+
+[[feeds]]
+name = "Tokio Releases"
+url = "github:tokio-rs/tokio"
+tag = "rust"
+retention_days = 30

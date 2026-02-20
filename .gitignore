@@ -1,0 +1,20 @@
+# Binary output
+feeder
+*.exe
+
+# Local cache (ephemeral, not synced)
+cache.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+/vendor/
